@@ -1,0 +1,3 @@
+series,variable,peak_at,peak_value,peak_ci_lo,peak_ci_hi,B_used,diff_peak_minus_first,diff_peak_minus_first_lo,diff_peak_minus_first_hi,first_r,diff_peak_minus_last,diff_peak_minus_last_lo,diff_peak_minus_last_hi,last_r
+fixed repertoire,frpfixed repertoire,10,0.510056772859932,8,10,2000,0.4053417029615418,0.3666171181956356,0.4420221030490727,1,0.4583454969456176,0.4207049704162502,0.4932787357297667,40
+paper scheme,frppaper scheme,13,0.5122957326111073,10,16,2000,0.4351814890612825,0.39774365654080046,0.4736335273873889,1,0.3870915362282107,0.34430926335315737,0.4308497799664698,40

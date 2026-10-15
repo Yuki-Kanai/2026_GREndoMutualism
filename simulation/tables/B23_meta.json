@@ -1,0 +1,9 @@
+{
+  "n_cells": 4500,
+  "n_detlimit": 154,
+  "same_peak_at_both_ends": true,
+  "endpoint_contrasts_positive_at_both_ends": true,
+  "n_lower_bound_repaired": 83,
+  "best_bound_source": "reconstructed from mip_gap",
+  "mu_H_0": 0.05171127591729885
+}

@@ -1,0 +1,8 @@
+# Pre-evolution (Level 1 + 2). Nominal design of 02_reproduction_tasks.md §0.1.
+stage: pre
+scheme: paper
+r_grid: "1..100"
+N_S: 300
+N_c: 100
+host_id: 0
+save_vectors: all

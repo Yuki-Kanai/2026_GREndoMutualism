@@ -1,0 +1,8 @@
+# Shared-tournament check (SW) -- post-evolution MILP.  Same r grid and N_S as A4
+# (design_a4.yaml) so that the 20 worlds compare one-to-one with the 20 A4 hosts.
+stage: post
+scheme: shared_world
+r_grid: [1, 2, 3, 5, 8, 10, 12, 15, 20, 25, 30, 40, 60, 80, 100]
+N_S: 100
+host_id: 0
+save_vectors: all

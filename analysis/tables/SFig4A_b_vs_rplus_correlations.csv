@@ -1,0 +1,5 @@
+rho,p,n,stage,scope
+0.824479774438738,0,30000,pre,pooled
+0.5723524224247171,NA,30000,pre,partial_on_r
+-0.9615981276877934,0,30000,post,pooled
+-0.9456624825402938,NA,30000,post,partial_on_r

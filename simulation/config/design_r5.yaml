@@ -1,0 +1,10 @@
+# R5 / gate G9 -- m sweep, post-evolution (08_r5_two_designs.md section 1).
+# m, r^H and host_id all come from the CLI (--m, --r-h, --host-id); this file only
+# fixes what the two designs share.  k = 4 and the acceptance window [0.05, 0.10]
+# are deliberately NOT varied with m.
+stage: post
+scheme: paper
+r_grid: [1, 2, 3, 5, 8, 10, 12, 15, 20, 25, 30, 40, 60, 80, 100]
+N_S: 100
+host_id: 0
+save_vectors: all

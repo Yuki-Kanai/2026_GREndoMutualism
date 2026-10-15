@@ -1,0 +1,10 @@
+# A4 / gate G7 -- multiple hosts.  Same r grid as the run-1 post stage so the
+# 20 hosts are comparable to the single host of G1.  N_S = 100 per host
+# (07_run2_workorder.md section 4.2); host_id comes from the CLI --host-id, and
+# host 0 reuses the existing data/raw/post_paper blocks unchanged.
+stage: post
+scheme: paper
+r_grid: [1, 2, 3, 5, 8, 10, 12, 15, 20, 25, 30, 40, 60, 80, 100]
+N_S: 100
+host_id: 0
+save_vectors: all

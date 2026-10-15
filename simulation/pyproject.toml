@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grhd"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy", "scipy", "pandas", "pyarrow", "pyyaml", "highspy",
+  "quadprog", "matplotlib", "statsmodels", "tqdm", "joblib",
+]
+
+[project.optional-dependencies]
+milp = ["cplex"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+markers = ["slow: long-running validation (V1 Level-3 multistart)"]
+testpaths = ["tests"]

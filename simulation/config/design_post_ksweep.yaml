@@ -1,0 +1,15 @@
+# Post-evolution k sweep (03_additional_analyses.md A1), matching the pre-evolution
+# arm in config/design_a1_ksweep.yaml: same r grid, same N_S, same host.
+#
+# k is given on the command line (--k).  k = 4 reproduces the paper arm bit-for-bit
+# because the k_sweep generator uses scheme="paper" in the RNG key, so the k = 4 arm
+# is data/raw/post_paper and must NOT be recomputed.  Only k in {2, 8, 16} is run.
+#
+# Output lands in data/raw/post_k_sweep_k<k>/.  Use --chunk 10 throughout, as
+# everywhere else in the post stage (handover START_HERE section 8e).
+stage: post
+scheme: k_sweep
+r_grid: "1..100"
+N_S: 300
+host_id: 0
+save_vectors: all

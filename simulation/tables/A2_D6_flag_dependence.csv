@@ -1,0 +1,4 @@
+variant,scope,n_worlds,n_try_per_world,acceptance_mean,acceptance_sd_between_worlds,acceptance_min,acceptance_max
+tournament_scope=per_individual (default),per_individual,5,200,0.009000000000000001,0.007416198487095663,0.0,0.02
+tournament_scope=shared,shared,5,200,0.015000000000000003,0.01414213562373095,0.005,0.035
+normalize_cH=false,per_individual,5,200,0.011,0.009617692030835673,0.0,0.025

@@ -1,0 +1,11 @@
+{
+  "n_cells": 3000000,
+  "mu_H_0": 0.05171127591729885,
+  "m": 10,
+  "r_values": 100,
+  "N_S": 300,
+  "N_c": 100,
+  "bootstrap_B": 2000,
+  "subsample_per_r": 300,
+  "source": "data/raw/pre_paper"
+}

@@ -1,0 +1,7 @@
+scope,statistic,value,p,n
+pooled,spearman_rho_muH_muS,-0.5777872419837324,0.0,3000000
+pooled,pearson_r_muH_muS,-0.8377875128364065,,3000000
+partial_on_r,partial_spearman_muH_muS,-0.3961028141643331,,3000000
+within_r_fisher_pooled,spearman_rho_muH_muS,-0.3050914481674351,,3000000
+within_r_median,spearman_rho_muH_muS,-0.18338423061463913,,100
+within_r_iqr,spearman_rho_muH_muS,0.41901488772173234,,100

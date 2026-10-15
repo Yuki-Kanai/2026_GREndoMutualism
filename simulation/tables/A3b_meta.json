@@ -1,0 +1,10 @@
+{
+  "mu_H_0": 0.05171127591729885,
+  "n_cells": 4500,
+  "bootstrap_B": 2000,
+  "definitions": {
+    "exclude_ub_lt_1": "pre-evolution mean ub < 1 (trivial_ub)",
+    "exclude_delta_small": "post-evolution mu_H - mu_H_0 < 1e-2",
+    "exclude_both": "either of the above"
+  }
+}

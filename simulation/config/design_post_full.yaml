@@ -1,0 +1,18 @@
+# Post-evolution on the FULL r = 1..100 grid, step 1, for the main host.
+#
+# The run-1 post stage used the 15-point coarse grid of 02 section 0.2, which was
+# sized for the MILP budget.  The main figures other than Fig.6C are drawn against
+# the same r sweep as the pre-evolution stage (r = 1..100 at step 1, N_S = 300), so
+# the post stage has to cover it too: mu^H and mu^S before/after evolution, r vs s,
+# r vs alpha, and the structure quantities.
+#
+# Lands in data/raw/post_paper (tag "paper", host 0, m = 10, r^H = 24), so every
+# block already computed is skipped.  post_paper is uniformly chunk 10 -- verified
+# with scripts/r5_integrity.py -- so this MUST be run with --chunk 10 as well
+# (01_model_spec.md A25 / handover START_HERE section 8e).
+stage: post
+scheme: paper
+r_grid: "1..100"
+N_S: 300
+host_id: 0
+save_vectors: all

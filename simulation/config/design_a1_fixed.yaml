@@ -1,0 +1,10 @@
+# A1 fixed-repertoire control (03_additional_analyses.md A1, 07 §3.1).
+# n_rxn is given on the command line (--n-rxn 12|24|40); r is clipped to <= n_rxn.
+# N_S here is N_rep: one replicate = one fixed reaction set + weights + order.
+stage: pre
+scheme: fixed_repertoire
+r_grid: "1..40"
+N_S: 300
+N_c: 100
+host_id: 0
+save_vectors: none

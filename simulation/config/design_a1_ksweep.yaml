@@ -1,0 +1,10 @@
+# A1 k sweep (03_additional_analyses.md A1).  k is given on the command line.
+# k = 4 reproduces the paper arm bit-for-bit (same RNG key), so only k in
+# {2, 8, 16} needs to be run.
+stage: pre
+scheme: k_sweep
+r_grid: "1..100"
+N_S: 300
+N_c: 100
+host_id: 0
+save_vectors: none

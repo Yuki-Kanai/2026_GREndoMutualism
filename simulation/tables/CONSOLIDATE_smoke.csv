@@ -1,0 +1,3 @@
+n_files,n_rows,bytes_in,bytes_out,seconds,verified,error,run,kind
+144,3600,3813706,182900,2.0745115764439106,True,,post_fixed_repertoire_n40,cells
+144,3600,2213879,632410,2.864195793867111,True,,post_fixed_repertoire_n40,vectors

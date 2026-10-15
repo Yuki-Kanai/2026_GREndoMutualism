@@ -1,0 +1,13 @@
+scheme,stage,level,n_symbionts
+k sweep,before,2,30000
+k sweep,before,4,30000
+k sweep,before,8,30000
+k sweep,before,16,30000
+fixed repertoire,before,12,3600
+fixed repertoire,before,24,7200
+fixed repertoire,before,40,12000
+k sweep,after,2,30000
+k sweep,after,4,30000
+k sweep,after,8,30000
+k sweep,after,16,30000
+fixed repertoire,after,40,3600

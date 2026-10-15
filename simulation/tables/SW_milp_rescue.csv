@@ -1,0 +1,3 @@
+run,m,world_id,r,symbiont_id,cplex_status,cplex_milp_path,scip_status,scip_mu_H,scip_dualbound,scip_lp_recheck_mu_H,scip_seconds,mu_H_0,recheck_abs_diff
+post_shared_world_m15_rH24_w7,15,7,13,98,infeasible,presolve_on,optimal,0.08655887366045972,0.08655887366045972,0.08655887366044872,0.76688551902771,0.08655887366044872,1.1005085731596864e-14
+post_shared_world_m5_rH24_w2,5,2,40,47,infeasible,presolve_on,optimal,0.07866197399955509,0.07866197399955509,0.07866197399442129,0.06449127197265625,0.07866197399442129,5.133796165956994e-12

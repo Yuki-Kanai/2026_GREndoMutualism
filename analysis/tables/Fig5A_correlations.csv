@@ -1,0 +1,9 @@
+rho,p,n,scope,x,subset
+0.7561201464016305,0,6300,pooled,mu_H_pre_max,5<=r<=25
+0.7798540192755906,NA,6300,partial_on_r,mu_H_pre_max,5<=r<=25
+0.4838605963341299,0,30000,pooled,mu_H_pre_max,all
+0.3308795481424164,NA,30000,partial_on_r,mu_H_pre_max,all
+0.5333511779110173,0,6300,pooled,mu_H_pre_median,5<=r<=25
+0.5689643540899597,NA,6300,partial_on_r,mu_H_pre_median,5<=r<=25
+0.45784464938755187,0,30000,pooled,mu_H_pre_median,all
+0.29074992685101514,NA,30000,partial_on_r,mu_H_pre_median,all

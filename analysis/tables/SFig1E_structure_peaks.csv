@@ -1,0 +1,47 @@
+scheme,level,quantity,peak_at,ci_lo,ci_hi,peak_value,r_max
+k sweep,2,mu_H after evolution,12,12,14,0.38093046792700025,NA
+k sweep,4,mu_H after evolution,13,10,16,0.5122957326111073,NA
+k sweep,8,mu_H after evolution,14,14,16,0.538492442961535,NA
+k sweep,16,mu_H after evolution,16,12,26,0.4827953469248999,NA
+k sweep,2,mean s,12,9,14,1.8897591534074893,100
+k sweep,4,mean s,8,8,13,3.1186184509692367,100
+k sweep,8,mean s,8,8,13,3.4446386131770548,100
+k sweep,16,mean s,15,11,21,3.4891560922213127,100
+k sweep,2,median s,12,10,14,1.522394448920774,100
+k sweep,4,median s,8,8,15,2.4657327969981235,100
+k sweep,8,median s,10,8,16,2.8136506826277294,100
+k sweep,16,median s,15,12,23,2.9112438888042336,100
+k sweep,2,mean ub,12,10,14,14.002933333333333,100
+k sweep,4,mean ub,11,8,14,16.3968,100
+k sweep,8,mean ub,13,11,15,17.371666666666666,100
+k sweep,16,mean ub,15,15,24,17.230866666666667,100
+k sweep,2,mean excreted,10,9,14,1.3960666666666666,100
+k sweep,4,mean excreted,8,7,9,2.6173333333333333,100
+k sweep,8,mean excreted,7,4,7,3.274566666666667,100
+k sweep,16,mean excreted,6,4,8,3.4867,100
+fixed repertoire,40,mu_H after evolution,10,8,10,0.510056772859932,NA
+fixed repertoire,12,mean s,3,2,5,1.6220200027730052,12
+fixed repertoire,24,mean s,7,5,10,2.8617985373595074,24
+fixed repertoire,40,mean s,8,5,8,3.5054747276714457,40
+fixed repertoire,12,median s,4,3,6,1.1559797591127254,12
+fixed repertoire,24,median s,6,5,7,2.3500966349677497,24
+fixed repertoire,40,median s,8,6,8,2.8582162883848103,40
+fixed repertoire,12,mean ub,10,7,12,11.108133333333333,12
+fixed repertoire,24,mean ub,8,7,10,16.223,24
+fixed repertoire,40,mean ub,8,8,9,17.5792,40
+fixed repertoire,12,mean excreted,2,1,3,1.8669666666666667,12
+fixed repertoire,24,mean excreted,3,2,5,2.938066666666667,24
+fixed repertoire,40,mean excreted,4,3,5,3.3172,40
+"paper scheme, same r range",40,mu_H after evolution,13,10,16,0.5122957326111073,NA
+"paper scheme, same r range",12,mean s,8,8,12,3.1186184509692367,12
+"paper scheme, same r range",24,mean s,8,8,13,3.1186184509692367,24
+"paper scheme, same r range",40,mean s,8,8,13,3.1186184509692367,40
+"paper scheme, same r range",12,median s,8,8,12,2.4657327969981235,12
+"paper scheme, same r range",24,median s,8,8,15,2.4657327969981235,24
+"paper scheme, same r range",40,median s,8,8,15,2.4657327969981235,40
+"paper scheme, same r range",12,mean ub,11,8,12,16.3968,12
+"paper scheme, same r range",24,mean ub,11,8,14,16.3968,24
+"paper scheme, same r range",40,mean ub,11,8,14,16.3968,40
+"paper scheme, same r range",12,mean excreted,8,7,9,2.6173333333333333,12
+"paper scheme, same r range",24,mean excreted,8,7,9,2.6173333333333333,24
+"paper scheme, same r range",40,mean excreted,8,7,9,2.6173333333333333,40

@@ -1,0 +1,7 @@
+scheme,variable,units,survives,r_star_median,r_star_min,r_star_max,peak_median,peak_minus_worse_end_median
+per_individual,mu_H,20,20,10,8,15,0.37705124844918564,0.27671592778602055
+per_individual,mu_H_rel,20,20,10,8,15,5.7102885201572935,4.397886485455102
+per_individual,mutualistic,20,20,15,8,15,0.78,0.7
+shared,mu_H,20,20,12,5,25,0.2451021690491711,0.1597526708617555
+shared,mu_H_rel,20,20,12,5,25,3.348442270534931,2.2885586583151216
+shared,mutualistic,20,20,12,10,25,0.635,0.565

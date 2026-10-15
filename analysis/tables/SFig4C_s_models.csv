@@ -1,0 +1,11 @@
+part,quantity,value,ci_lo,ci_hi,n_gate,n_extent
+gate,odds ratio per 10-fold s (adjusted for r),3.494871660218324,2.9816418465624124,4.096443687721605,8700,6760
+gate,LRT p for adding log10 s to r,5.00668069187539e-57,NA,NA,8700,6760
+gate,"AUC, r only",0.6927757655706704,NA,NA,8700,6760
+gate,"AUC, log10 s only",0.6425076252058806,NA,NA,8700,6760
+gate,"AUC, r + log10 s",0.7231437961324956,NA,NA,8700,6760
+extent,slope per 10-fold s (adjusted for r),0.25047278896552805,0.22788762437123378,0.2730579535598223,8700,6760
+extent,"R2, r only",0.042236585240105276,NA,NA,8700,6760
+extent,"R2, r + log10 s",0.10487611996350528,NA,NA,8700,6760
+extent,partial R2 of log10 s given r,0.06540188710288473,NA,NA,8700,6760
+extent,median within-r Spearman rho (r with >= 20 mutualistic pairs),0.28888415843176113,-0.066861496712243,0.5582905982905981,8700,6760

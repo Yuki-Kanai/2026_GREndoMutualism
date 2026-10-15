@@ -1,0 +1,11 @@
+# Shared-tournament check (SW) -- pre-evolution Level 1 + 2, one host per world.
+# host_id is the world id (scheme shared_world).  N_S x N_c reduced from the
+# nominal 300 x 100 to 100 x 10: this is a screening run for the s peak and the
+# pre-evolution mu^H, not a replacement for R1-R3.
+stage: pre
+scheme: shared_world
+r_grid: "1..100"
+N_S: 100
+N_c: 10
+host_id: 0
+save_vectors: none

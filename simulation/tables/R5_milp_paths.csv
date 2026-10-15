@@ -1,0 +1,17 @@
+design,m,milp_path,n
+A,5,default,8953
+A,5,numerical_emphasis,30
+A,5,presolve_on,17
+A,10,default,16900
+A,10,none,1500
+A,15,default,10500
+A,20,default,11000
+A,25,default,11000
+B,5,default,17904
+B,5,numerical_emphasis,50
+B,5,presolve_on,46
+B,10,default,27400
+B,10,none,1500
+B,15,default,21000
+B,20,default,22000
+B,25,default,22000

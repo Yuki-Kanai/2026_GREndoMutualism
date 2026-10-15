@@ -1,0 +1,14 @@
+{
+  "post_mu_H_lt_mu_H_0": 0,
+  "post_mu_S_negative": 0,
+  "pre_mu_S_negative": 0,
+  "post_mu_H_lt_pre_best": 3,
+  "post_mu_H_plus_mu_S_gt_1": 0,
+  "pre_mu_S_gt_cH_l1": 0,
+  "post_solver_unbounded": 0,
+  "pre_solver_unbounded": 0,
+  "post_n_cells": 4500,
+  "pre_n_cells": 3000000,
+  "post_worst_deficit_vs_mu_H_0": 3.1968871994081383e-13,
+  "post_worst_deficit_vs_pre_best": 0.0011998203043945208
+}

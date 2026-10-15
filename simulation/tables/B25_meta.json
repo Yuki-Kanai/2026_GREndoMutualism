@@ -1,0 +1,7 @@
+{
+  "n": 80,
+  "n_both_optimal": 80,
+  "max_abs_diff": 4.6629367034256575e-15,
+  "r_grid": "2,5,10,20",
+  "time_limit_s": 300.0
+}

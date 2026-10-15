@@ -1,0 +1,19 @@
+name: GRHDanalysis
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.3
+  - r-tidyverse      # dplyr, ggplot2, tidyr, readr, purrr, tibble, stringr
+  - r-arrow          # reads the simulation's parquet output
+  - r-cowplot        # theme_half_open
+  - r-patchwork      # panel assembly
+  - r-ggrastr        # rasterised point layers (keeps the PDFs small)
+  - r-latex2exp      # TeX() axis labels
+  - r-jsonlite       # figure metadata sidecars
+  - r-digest         # deterministic seeds
+  - r-sessioninfo
+  - r-irkernel       # the Jupyter kernel
+  - jupyter_core
+  - jupyter_client
+  - ipykernel
+  - nbconvert

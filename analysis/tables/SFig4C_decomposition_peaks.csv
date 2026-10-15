@@ -1,0 +1,6 @@
+curve,column,peak_at,peak_value
+mean mu_H (Fig.4A),mu_H_mean,13,0.5122957326111073
+P(s > 0 | r),p_spos,13,0.9466666666666667
+"E[mu_H | s > 0, r]",e_spos,13,0.5380560508676093
+only the gate varies,only_gate_varies,13,0.39396482679949074
+only the extent varies,only_extent_varies,13,0.1927512606528889

@@ -1,0 +1,76 @@
+# GRHD base configuration. All numeric constants live here (05_conventions.md §2).
+master_seed: 20260916
+
+model:
+  m: 10                 # number of metabolites; M_m is biomass
+  k: 4                  # reactions per regulatory mode
+  r_H: 24               # host genome size (fixed)
+  c_E_first: 1.0        # c^E = (1, 0, ..., 0) in R^{m-1}
+  c_H_l1: 0.01          # |c^H|_1 for the pre-evolution sampler
+  host_accept_lo: 0.05  # rejection-sampling window for mu_H_0
+  host_accept_hi: 0.10
+  max_attempts: 200000
+
+tolerances:
+  tol_abs: 1.0e-8       # bounded/unbounded: tol_b = tol_abs + tol_rel*|c^H_i|
+  tol_rel: 1.0e-6
+  tol_w: 1.0e-8         # active-mode threshold
+  tol_exc: 1.0e-8       # excretion threshold
+  eps_mu_abs: 1.0e-9    # min-norm QP growth slack
+  eps_mu_rel: 1.0e-9
+  rcond: 1.0e-10        # numpy.linalg.pinv rcond
+  identity_tol: 1.0e-7  # V12 conservation-identity checks
+
+# 01_model_spec.md §9 ambiguity flags
+flags:
+  tournament_scope: per_individual
+  sample_within_mode: without_replacement
+  host_min_norm: false
+  zero_cH_rule: bounded_if_zero_flux   # or: always_unbounded
+  normalize_cH: true   # solve Level 1 at |c^H|_1 = 1 and scale back (homogeneity)
+  c_H_box: 10.0        # C_max
+  w_S_box: 1.0e4       # W_max
+  lambda_box: 1.0e4    # Lambda_max
+
+solver:
+  lp:
+    solver: ipm
+    run_crossover: "off"
+    presolve: "off"
+    primal_feasibility_tolerance: 1.0e-10
+    dual_feasibility_tolerance: 1.0e-10
+    ipm_optimality_tolerance: 1.0e-11
+    ipm_iteration_limit: 400
+    time_limit: 20.0
+  # used only when the primary LP does not reach "Optimal" (recorded as lp_path)
+  lp_fallback:
+    solver: simplex
+    presolve: "on"
+    primal_feasibility_tolerance: 1.0e-10
+    dual_feasibility_tolerance: 1.0e-10
+    time_limit: 60.0
+  qp:
+    # min-norm tie-break.  First backend that succeeds wins; the one used is
+    # recorded per cell in the qp_path column.  quadprog is Goldfarb-Idnani
+    # (finite, exact, deterministic) and reproduces the CPLEX answer exactly
+    # (tables/QP_backend_equivalence.csv).
+    backends: [quadprog, cplex, highs]
+    presolve: "off"
+  milp:
+    det_time_limit: 1.5e5      # CPXPARAM_DetTimeLimit, ticks
+    presolve: 0                # off (paper setting)
+    threads: 1
+    eps_H_abs: 1.0e-9
+    eps_H_rel: 1.0e-9
+
+stats:
+  bootstrap_B: 2000
+  kde_kernel: gaussian
+  kde_bw_fig3c: 2.0e-3
+  kde_bw_fig4c: 0.2
+  hdr_levels: [25, 50, 75]
+  kde_grid: 256
+  scatter_subsample: 300
+
+io:
+  save_vectors: all       # all | subset | none

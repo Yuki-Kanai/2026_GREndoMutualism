@@ -1,0 +1,8 @@
+# Shared-tournament check (SW), m = 15.  Same r grid and N_S as the R5-B
+# per-individual runs post_paper_m15_rH24[_h1..9], so the two compare one-to-one.
+stage: post
+scheme: shared_world
+r_grid: [1, 2, 3, 5, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 30, 40, 60, 100]
+N_S: 100
+host_id: 0
+save_vectors: all
